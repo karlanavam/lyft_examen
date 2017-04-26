@@ -14,7 +14,7 @@ body{
   position:absolute;
   float:left;
   width:40%;
-  height:13%;
+  height:15%;
   left: 60%;
   margin-top: 8%;
 }
@@ -57,7 +57,7 @@ form{
   font-family: 'Helvetica';
   font-size: 3em;
   margin-left:13%;
-  padding-top: 13%;
+  padding-top: 0;
 }
 #tituloFormDos{
   color:#6f268b;
