@@ -1,15 +1,125 @@
 #footerEnding{
-  height: 16.625%;
-  background-color: #333447;
+
   position:relative;
+  color: #f3f3f5;
+  font-family:Helvetica;
+  font-size:25px ;
+  bottom: 0px;
+  width: 100%;
+  clear: both;
+
 }
-.listNum1{
-  width:122.234;
-  height: 405;
-  margin-bottom: 64px;
+.fondoFooter{
+    background-color: #333447;
+    position: relative;
 }
 .classList{
+  position: absolute;
   width: 122.234;
   height: 17px;
+}
+.uppercase{
+  font-size: 30px;
+  font-family:Helvetica;
   margin-bottom: 24px;
+  color:white;
+  touch-action:manipulation;
+  cursor: pointer;
+}
+.uppercase:hover{
+    text-decoration: underline;
+    text-decoration-color:#ff00bf;
+}
+
+.list1{
+  position: absolute;
+  list-style: none;
+  left:70px;
+  top: 50px;
+
+}
+.list2{
+  position: absolute;
+  top: 50px;
+  left: 230px;
+  margin-left: 100px;
+  list-style: none;
+}
+.list3{
+  position: absolute;
+  list-style: none;
+  margin-left: 700px;
+  top:50px;
+
+}
+.list4{
+  list-style: none;
+  position: absolute;
+  top:50px;
+  margin-left: 999px;
+}
+.classList{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  font-weight: lighter;
+}
+.link{
+  color:white;
+  text-decoration: none;
+  padding: 10px;
+  touch-action:manipulation;
+  cursor: pointer;
+}
+
+.link:hover{
+  color:#ff00bf;
+  text-decoration:underline;
+}
+.imagenApp{
+  width: 160px;
+  height: 47.66px;
+}
+.Icons{
+ position:relative;
+ margin:30%;
+ top: 20px;
+}
+.classList5{
+ display: inline-block;
+}
+.iconsV{
+ width: 32px;
+ height: 32px;
+ display: inline-block;
+ padding-left: 100px;
+
+
+}
+.linea{
+ margin-top: 40px;
+ margin-bottom: 20px;
+
+ border-style: solid;
+ border-width: 1px;
+ border-color: white;
+ width:607.33px;
+ height: 0px;
+}
+.classList5{
+ color:white;
+ position: absolute;
+ display: inline-block;
+ left:26%;
+
+}
+.enlace1{
+ position:absolute;
+ left:48%;
+ color:white;
+
+}
+.enlace2{
+ position:absolute;
+ left:58%;
+ color:white;
 }
