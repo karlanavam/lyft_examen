@@ -7,6 +7,8 @@ function cambiarLogo() {
   var claseLogo = document.getElementById('nav');
 
   logo.src = "assets/img/logo-white.png";
+  claseLogo.backgroundColor = "grey";
+
 
 }
 
