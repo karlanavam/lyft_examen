@@ -3,41 +3,48 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Lyft</title>
+    <title>A ride whenever you need one - Lyft</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/header/header.css">
     <link rel="stylesheet" type="text/css" href="assets/css/videos/videos.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer/footer.css">
+    <link rel="icon" href="assets/img/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
   </head>
+
   <body>
 
-    <nav>
+
+    <nav id="nav">
+
       <ul>
-        <li class="navLista"><img src="assets/img/logo-pink.png" class="logoNav" width="64px"></li>
-        <li class="navLista">Drive</li>
-        <li class="navLista">Explore^</li>
-        <li class="navLista">Help</li>
-        <li class="navLista">Log in</li>
-        <li class="navLista">Sign up</li>
+        <li class="navLista">
+          <a href="#"><img src="assets/img/logo-pink.png" class="logoNav" width="64px" id="imagenLogoCambio"></a></li>
+        <li class="navLista navFloat bordeElementoNav" id="sign">Sign up</li>
+        <li class="navLista navFloat bordeElementoNav">Log in</li>
+        <li class="navLista navFloat">Help</li>
+        <li class="navLista navFloat">Explore ^</li>
+        <li class="navLista navFloat">Drive</li>
       </ul>
     </nav>
 
 
     <header id="header">
       <div>
-        <video src="assets/img/header-video.mp4" autoplay poster=""></video>
-        <div>
+        <video id="video-header" src="assets/img/header-video.mp4" autoplay poster=""></video>
+        <div class="formulario-header">
           <form>
-            <h1>TURN MILES<br>INTO MONEY</h1>
-            <h2>SING UP TO DRIVE WITH LYFT.</h2>
+            <h1 id="tituloForm">TURN MILES<br>INTO MONEY</h1>
+            <h2 id="tituloFormDos">SING UP TO DRIVE WITH LYFT.</h2>
             <input type="tel" name="phone" placeholder="Phone Number">
             <input type="text" name="nameFirst" placeholder="First Name">
             <input type="text" name="nameLast" placeholder="Last Name">
             <input type="mail" name="email" placeholder="Email">
             <input type="text" name="city" placeholder="City">
             <a href="#">Promo code?</a>
+<
             <div>
               <input type="checkbox" name="agree">
               <label>
@@ -47,32 +54,39 @@
                 </span>
               </label>
             </div>
+
+            <input type="checkbox" name="agree">
+            <label>
+              <span>
+                I agree
+              <a href="#">Lyft´s Terms of Service</a>
+              </span>
+            </label>
+
             <button>Become a Driver</button>
             <a href="#">Sign Up to Ride</a>
-          </form>
-          <div>
             <p>Already applied?</p>
             <a href="#">Check the status of your application here</a>
             <p>Earn money for inviting friends to drive.</p>
             <a href="#">Learn more</a>
-          </div>
+          </form>
         </div>
-      </div>
+
+        </div>
+
     </header>
 
-    <div>
-      <div>
-        <div>
-          <h3>A RIDE IN<br>MINUTES</h3>
-          <p>Request a ride and you'll be on<br> you way in minutes.Request.<br>Ride.Repeat.</p>
-          <h3>SERIOUS ABOUT<br>SAFETY</h3>
-          <p>From knowing the color of your driver's car to our 24/7<br>Trust & Safety Team, we got you.</p>
-          <h3>HAPPY DRIVES.<br>HAPPY RIDERS.</h3>
-          <p>Ride with and you’ll see why 9 out of 10 rides end with five<br> stars.</p>
-        </div>
-        <div>
-          <img src="assets/img/phone.png">
-        </div>
+    <div class="seccionHeader">
+      <div class="parrafosHeader">
+        <h3>A RIDE IN<br>MINUTES</h3>
+        <p>Request a ride and you'll be on<br> you way in minutes.Request.<br>Ride.Repeat.</p>
+        <h3>SERIOUS ABOUT<br>SAFETY</h3>
+        <p>From knowing the color of your driver's car to our 24/7<br>Trust & Safety Team, we got you.</p>
+        <h3>HAPPY DRIVES.<br>HAPPY RIDERS.</h3>
+        <p>Ride with and you’ll see why 9 out of 10 rides end with five<br> stars.</p>
+      </div>
+      <div class="parrafosHeader">
+        <img id="imagenTelefono" src="assets/img/phone.png">
       </div>
     </div>
 
@@ -87,18 +101,18 @@
              for passengers and drivers to find each other.
           </p>
         </div>
-        <div class="contenedorImagenesVideos">
+        <div class="contenedorImagenVideo">
           <img class="imagenVideos" src="assets/img/imgVideos1.png">
-          <!-- imgagen -->
+          <!-- imagen -->
         </div>
       </section>
 
       <section>
-        <div class="contenedorImagenesVideos">
-          <img class="imagenVideos" src="assets/img/imgVideos2.png">
+        <div class="contenedorImagenVideo contenedorImagenVideo2">
+          <img class="imagenVideos imagenVideos2" src="assets/img/imgVideos2.png">
           <!-- imgagen -->
         </div>
-        <div class="contenedorTextoVideos">
+        <div class="contenedorTextoVideos contenedorTextoVideos2">
           <h3 class="h3Videos">WATCH</h3>
           <h2 class="h2Videos">JUNE</h2>
           <p class="pVideos">In an animated short film by Academy Award-winner John Kahrs,
@@ -108,7 +122,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="romperFloat">
         <div class="contenedorTextoVideos">
           <h3 class="h3Videos">WATCH</h3>
           <h2 class="h2Videos">A GOOD THING GOING</h2>
@@ -116,8 +130,8 @@
              Lyft continues to prioritize happy drivers, short ETAs, and safety.
           </p>
         </div>
-        <div class="contenedorImagenesVideos">
-          <img class="imagenVideos" src="assets/img/imgVideos3.png"> -->
+        <div class="contenedorImagenVideo">
+          <img class="imagenVideos" src="assets/img/imgVideos3.png">
           <!-- imgagen -->
         </div>
       </section>
