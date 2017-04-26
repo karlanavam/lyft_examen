@@ -18,36 +18,44 @@
 
         <div class="formulario-header">
           <form>
-            <h1 id="tituloForm">TURN MILES<br>INTO MONEY</h1>
-            <h2 id="tituloFormDos">SING UP TO DRIVE WITH LYFT.</h2>
-            <input type="tel" name="phone" placeholder="Phone Number">
-            <input type="text" name="nameFirst" placeholder="First Name">
-            <input type="text" name="nameLast" placeholder="Last Name">
-            <input type="mail" name="email" placeholder="Email">
-            <input type="text" name="city" placeholder="City">
-            <a href="#">Promo code?</a>
-            <input type="checkbox" name="agree">
+            <div class="PrimeraParteFormulario">
+              <h1 id="tituloForm">TURN MILES<br>INTO MONEY</h1>
+              <h2 id="tituloFormDos">SING UP TO DRIVE WITH LYFT.</h2>
+              <input class="inputFormulario" type="tel" name="phone" placeholder="Phone Number">
+              <input class="inputFormulario inputPequeño" type="text" name="nameFirst" placeholder="First Name">
+              <input class="inputFormulario inputPequeñoDos" type="text" name="nameLast" placeholder="Last Name">
+              <input class="inputFormulario " type="mail" name="email" placeholder="Email">
+              <input class="inputFormulario inputPequeño" type="text" name="city" placeholder="City">
+              <a id="linkPromo" href="#">Promo code?</a>
+            </div>
+            <div class="areaBoton">
+            <input  class="acuerdosFormularios" type="checkbox" name="agree">
             <label>
-              <span>
+              <span >
                 I agree
-              <a href="#">Lyft´s Terms of Service</a>
+              <a class="linkDos" href="#">Lyft´s Terms of Service</a>
               </span>
             </label>
-            <button>Become a Driver</button>
+           </div>
+           <div class="boton">
+            <button class="acuerdosFormularios">Become a Driver</button>
             <a href="#">Sign Up to Ride</a>
-            <p>Already applied?</p>
-            <a href="#">Check the status of your application here</a>
-            <p>Earn money for inviting friends to drive.</p>
-            <a href="#">Learn more</a>
+           </div>
+           <div class="boton">
+            <p class="acuerdosFormulariosDos parrafoDos">Already applied?</p>
+            <a class="acuerdosFormulariosDos linkDos" href="#">Check the status of your application here</a>
+            <p class="acuerdosFormulariosDos  parrafoDos">Earn money for inviting friends to drive.</p>
+            <a class="acuerdosFormulariosDos linkDos" href="#">Learn more</a>
+          </div>
           </form>
-        </div>
+              </div>
 
         </div>
 
     </header>
 
-    <div class="seccionHeader">
-      <div class="parrafosHeader">
+    <div id="seccion-header">
+      <div class="contenedor-Parrafos">
         <h3>A RIDE IN<br>MINUTES</h3>
         <p>Request a ride and you'll be on<br> you way in minutes.Request.<br>Ride.Repeat.</p>
         <h3>SERIOUS ABOUT<br>SAFETY</h3>
@@ -55,8 +63,8 @@
         <h3>HAPPY DRIVES.<br>HAPPY RIDERS.</h3>
         <p>Ride with and you’ll see why 9 out of 10 rides end with five<br> stars.</p>
       </div>
-      <div class="parrafosHeader">
-        <img id="imagenTelefono" src="assets/img/phone.png">
+      <div class="contenedor-phone">
+        <img class="fotoPhone" src="assets/img/phone.png">
       </div>
     </div>
 

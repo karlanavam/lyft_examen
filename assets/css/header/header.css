@@ -13,7 +13,6 @@ body{
 .formulario-header{
   position:absolute;
   float:left;
-  /*background-color: grey;*/
   width:40%;
   height:16.5%;
   left: 60%;
@@ -24,34 +23,97 @@ form{
 
 
 }
-.seccionHeader{
-  background-color: #6b1d86;
-  height:16.5%;
-
-
+#seccion-header{
+ background-color: #6f268b
+;
+ padding-top: 0;
+ width: 100%;
+ height: 16.5%;
 }
-.parrafosHeader{
-  color: #FFF;
-  width:30%;
-  height:16.5%;
-  display: inline-block;
-  padding-top: 5% ;
-  left: 5%;
+.contenedor-Parrafos{
+ position: relative;
+ width: 50%
+ height: 16.5%;
+ margin-left:10%;
+ padding-top: 5%;
+ float: left;
+ color: white;
 }
-#imagenTelefono{
-  width:70%;
-  height:16.5%;
+ .contenedor-Parrafos p{
+ color: white;
+ margin-bottom: 10%
+}
+ .contenedor-phone{
+ position: relative;
+ width: 50%;
+ height: 16.5%;
+ margin-left: 50%;
+ padding-top: 5%;}.fotoPhone{
+ height: 400px;
 }
 #tituloForm{
   color: #6f268b;
   font-family: 'Helvetica';
-  font-size: 2em;
-  margin-left:2%;
-  margin-top: 2%¿'pl0ooñl'
+  font-size: 3em;
+  margin-left:13%;
+  padding-top: 13%;
 }
 #tituloFormDos{
   color:#6f268b;
   font-family:'Helvetica';
-  font-size: .8em;
+  font-size: 1em;
   font-family: 'Raleway', sans-serif;
+  margin-left: 13%;
+}
+.inputFormulario{
+ margin-left: 13%;
+ border: none;
+ text-decoration: underline;
+ border-bottom: 1px solid #000;
+ width: 80%;
+ padding-top: 8%;
+}
+.inputPequeño{
+  width:40%;
+}
+.inputPequeñoDos{
+  width:25%;
+}
+#linkPromo{
+  margin-left: 5%;
+  color: 	#D3D3D3;
+  padding-bottom: 2%;
+}
+
+#linkPromo:hover{
+  color:#ff00bf;
+}
+.areaBoton{
+  position:relative;
+  width:40%;
+  margin-left: 13%;
+  margin-top: 10%;
+  display: inline;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.acuerdosFormularios{
+  margin-top: 5%;
+  display:inline-block;
+  padding-bottom: 5%;
+}
+.acuerdosFormulariosDos{
+  margin-top: 2%;
+  display:inline-block;
+  padding-bottom: 2%;
+}
+.parrafoDos{
+  color:  	#D3D3D3;
+}
+.linkDos{
+  color:#ff00bf;
+}
+.boton{
+  margin-left: 13%;
 }
