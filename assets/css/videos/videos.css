@@ -6,50 +6,65 @@
 body {
   width: 100%;
   height: 100%;
+  background: yellow;
 }
 
 #video{
   width: 100%;
-  height: 46.625%;
-  position: relative;
+  height: 33.33%;
+  background-color: blue;
+  clear: both;
 }
 
 .contenedorTextoImagenVideos{
   width: 100%;
-  height: 33.33%;
-
+  height: 33%;
+  background-color: green;
+  position: relative;
+  float: left;
 }
 
 .contenedorTextoVideos {
   width: 30%;
   height: 100%;
-  float: left;
   padding: 0;
-  position: absolute;
+  background-color: red;
+  font-family: sans-serif;
+  display: inline-block;
+  
+
 }
 
 .h3Videos {
   font-size: .8em;
   font-family: Helvetica;
   text-align: left;
+  width: 80%;
+  font-family: sans-serif;
 }
 
 .h2Videos {
   font-size: 1em;
   font-family: Helvetica;
   text-align: left;
+  width: 80%;
+  font-family: sans-serif;
 }
 
 .pVideos {
   font-size: .8em;
   font-family: Helvetica;
   text-align: justify;
+  height: 40%;
+
 }
 
-.contenedorImagenesVideos {
+.contenedorImagenVideo {
   width: 70%;
   height: 100%;
-  float: left;
+  background-color: white;
+  display: inline-block;
+  float: right;
 
 }
 
