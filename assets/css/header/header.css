@@ -14,11 +14,12 @@ body{
   position:absolute;
   float:left;
   width:40%;
-  height:16.5%;
+  height:13%;
   left: 60%;
-  margin-top: 3.75%;
+  margin-top: 8%;
 }
 form{
+  padding-top: 10%;
   background-color: #FFF;
 
 
