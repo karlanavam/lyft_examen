@@ -1,6 +1,3 @@
-* {
-  margin: 0;
-}
 #nav {
   width: 100%;
   height: 112px;
@@ -19,14 +16,12 @@ nav .logoNav {
   position: absolute;
   top: 30%;
   left: 7%;
-
 }
 
 nav .navLista {
   list-style: none;
   display: inline-block;
   cursor: pointer;
-
 }
 
 .navFloat {
@@ -35,7 +30,7 @@ nav .navLista {
   margin-top: 35px;
   margin-left: 10px;
   font-size: 1.125rem;
-  font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  font-family: Helvetica, sans-serif;
   color: white;
 }
 
