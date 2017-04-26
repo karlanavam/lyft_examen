@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#video{
+  width: 100%;
+  height: 46.625%;
+}
+
+.contenedorTextoImagenVideos{
+  width: 100%;
+  height: 33.33%;
+}
+
+.contenedorTextoVideos {
+  width: 30%;
+  height: 100%;
+}
+
+.h3Videos {
+
+}
+
+.h2Videos {
+
+}
+
+.pVideos {
+
+}
+
+.contenedorImagenesVideos {
+  width: 70%;
+  height: 100%;
+}
+
+.imagenVideos {
+  width: 100%;
+
+}
