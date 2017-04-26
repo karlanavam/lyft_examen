@@ -6,18 +6,16 @@
   font-size:25px ;
   bottom: 0px;
   width: 100%;
+  height: 16.625%;
   clear: both;
 
 }
 .fondoFooter{
     background-color: #333447;
     position: relative;
+    height: 900px;
 }
-.classList{
-  position: absolute;
-  width: 122.234;
-  height: 17px;
-}
+
 .uppercase{
   font-size: 30px;
   font-family:Helvetica;
@@ -36,31 +34,37 @@
   list-style: none;
   left:70px;
   top: 50px;
+  margin-right: 100px;
+
 
 }
 .list2{
   position: absolute;
   top: 50px;
-  left: 230px;
+  left: 20%;
   margin-left: 100px;
   list-style: none;
+  margin-bottom: 20px;
 }
 .list3{
   position: absolute;
   list-style: none;
-  margin-left: 700px;
+  left:50%;
+  margin-top: 10px;
   top:50px;
+
 
 }
 .list4{
   list-style: none;
   position: absolute;
   top:50px;
-  margin-left: 999px;
+  left:80%;
 }
 .classList{
-  padding-bottom: 10px;
+  padding-top:  10px;
   margin-bottom: 25px;
+  padding-bottom: 10px;
   font-weight: lighter;
 }
 .link{
@@ -69,36 +73,60 @@
   padding: 10px;
   touch-action:manipulation;
   cursor: pointer;
+  margin-bottom: 10px;
 }
-
+.classList2{
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.classList3{
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.classList4{
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
 .link:hover{
   color:#ff00bf;
   text-decoration:underline;
 }
 .imagenApp{
-  width: 160px;
-  height: 47.66px;
+  width: 200px;
+  height: 60px;
 }
 .Icons{
- position:relative;
+ position:absolute;
  margin:30%;
- top: 20px;
+ margin-top: 700px;
 }
 .classList5{
  display: inline-block;
 }
 .iconsV{
- width: 32px;
- height: 32px;
+ width: 50px;
+ height: 50px;
  display: inline-block;
- padding-left: 100px;
-
+ position: absolute;
+ margin-top: 10px;
 
 }
-.linea{
- margin-top: 40px;
- margin-bottom: 20px;
+.Uno{
+  position: absolute;
+  left: 30%;
 
+}
+.Dos{
+  position: absolute;
+  left: 50%;
+}
+.Tres{
+  position: absolute;
+  left: 70%;
+}
+.linea{
+ margin-top: 80px;
+ margin-bottom: 20px;
  border-style: solid;
  border-width: 1px;
  border-color: white;
@@ -109,17 +137,17 @@
  color:white;
  position: absolute;
  display: inline-block;
- left:26%;
+ left:20%;
 
 }
 .enlace1{
  position:absolute;
- left:48%;
+ left:55%;
  color:white;
 
 }
 .enlace2{
  position:absolute;
- left:58%;
+ left:75%;
  color:white;
 }
