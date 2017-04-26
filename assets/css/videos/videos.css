@@ -31,31 +31,39 @@ body {
   background-color: red;
   font-family: sans-serif;
   display: inline-block;
-  
+  padding-top: 10%;
 
 }
 
 .h3Videos {
-  font-size: .8em;
-  font-family: Helvetica;
-  text-align: left;
-  width: 80%;
-  font-family: sans-serif;
-}
-
-.h2Videos {
   font-size: 1em;
   font-family: Helvetica;
   text-align: left;
   width: 80%;
   font-family: sans-serif;
+  width: 85%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+.h2Videos {
+  font-size: 2em;
+  font-family: Helvetica;
+  text-align: left;
+  width: 80%;
+  font-family: sans-serif;
+  margin-bottom: 10%;
+  margin-left: 5%;
 }
 
 .pVideos {
-  font-size: .8em;
+  font-size: 1.1em;
   font-family: Helvetica;
   text-align: justify;
   height: 40%;
+  width: 80%;
+  margin-bottom: 10%;
+  margin-left: 5%;
 
 }
 
@@ -65,9 +73,37 @@ body {
   background-color: white;
   display: inline-block;
   float: right;
+}
 
+.contenedorImagenVideo2 {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  display: inline-block;
+  float: left;
+}
+
+.contenedorTextoVideos2 {
+  width: 30%;
+  height: 100%;
+  padding: 0;
+  background-color: red;
+  font-family: sans-serif;
+  display: inline-block;
+  padding-top: 10%;
+}
+
+.romperFloat {
+  clear: both;
 }
 
 .imagenVideos {
-  width: 100%;
+  width: 95%;
+  float: right;
+  clear: both;
+}
+
+.imagenVideos2 {
+  float: left;
+  clear: both;
 }
