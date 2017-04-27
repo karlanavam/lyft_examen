@@ -14,107 +14,117 @@ body{
   position:absolute;
   float:left;
   width:40%;
-  height:13%;
+  height:100%;
   left: 60%;
   margin-top: 8%;
+  background-color: white;
 }
-form{
-  padding-top: 10%;
-  background-color: #FFF;
 
-
-}
-#seccion-header{
- background-color: #6f268b;
- padding-top: 0;
- width: 100%;
- height: 16.5%;
-}
-.contenedor-Parrafos{
- position: relative;
- width: 50%
- height: 16.5%;
- margin-left:10%;
- padding-top: 5%;
- float: left;
- color: white;
-}
- .contenedor-Parrafos p{
- color: white;
- margin-bottom: 10%
-}
- .contenedor-phone{
- position: relative;
- width: 50%;
- height: 16.5%;
- margin-left: 50%;
- padding-top: 5%;}.fotoPhone{
- height: 400px;
-}
-#tituloForm{
-  color: #6f268b;
+.formulario-header h1{
+ color: #352384;
   font-family: 'Helvetica';
   font-size: 3em;
   margin-left:13%;
-  padding-top: 0;
-  margin-top: -5%;
+  padding-top: 85px;
+  margin-top: -5%; 
 }
-#tituloFormDos{
+
+.formulario-header h2{
   color:#6f268b;
   font-family:'Helvetica';
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   margin-left: 13%;
 }
-.inputFormulario{
- margin-left: 13%;
- border: none;
- text-decoration: underline;
- border-bottom: 1px solid #000;
- width: 80%;
- padding-top: 8%;
+
+.entradaForm{
+  font-family:'Helvetica';
+  margin-left: 13%;
+  border: none;
+  text-decoration: underline;
+  border-bottom: 1px solid #000;
+  width: 80%;
+  padding-top: 8%;
+
 }
-.inputPequeño{
-  width:40%;
-}
-.inputPequeñoDos{
-  width:25%;
-}
-#linkPromo{
-  margin-left: 5%;
-  color: 	#D3D3D3;
-  padding-bottom: 2%;
+.entradaCity{
+  margin-left: 13%;
+  padding-top: 8%;
+  width: 50%;
+  display: inline-block;
+  border: none;
+  text-decoration: underline;
+  border-bottom: 1px solid #000;
 }
 
-#linkPromo:hover{
-  color:#ff00bf;
+.singUp{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: #848484;
+  margin-left: 20px;
 }
-.areaBoton{
-  position:relative;
-  width:40%;
-  margin-left: 13%;
-  margin-top: 10%;
-  display: inline;
-  padding-top: 5%;
-  padding-right: 5%;
+.singUp:hover{
+  color:#DF0174;
+}
+.enlace{
+  font-family:'Helvetica';
+  font-size: 13px;
+  color: #848484;
+
+}
+.enlace:hover{
+  color:#DF0174;
+}
+.promo{
+  font-family:'Helvetica';
+  font-size: 15px;
+  color: #848484;
+  margin-left: 20px;
+}
+.promo:hover{
+  color:#DF0174;
 }
 
-.acuerdosFormularios{
-  margin-top: 5%;
-  display:inline-block;
-  padding-bottom: 5%;
+.areaButton{
+  margin: 10px 70px 10px;
 }
-.acuerdosFormulariosDos{
-  margin-top: 2%;
-  display:inline-block;
-  padding-bottom: 2%;
+.areaButton button{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: white;
+  border-radius: 8px;
+  width: 200px;
+  height: 50px;
+  background-color: #ff00bf;
+  border: none;
+
 }
-.parrafoDos{
-  color:  	#D3D3D3;
+.textoForm {
+  padding-top: 3%;
+  width: 400px;
+  font-size: 13px;
+  font-family:'Helvetica';
+  margin-left: 70px; 
+  color: #848484;
 }
-.linkDos{
-  color:#ff00bf;
-}
-.boton{
-  margin-left: 13%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
