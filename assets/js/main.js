@@ -1,6 +1,12 @@
 document.addEventListener("scroll",cambiarLogo);
 document.addEventListener("scroll",apareceSingOn);
 document.addEventListener("scroll",fondoBarra);
+var eventoVideo = document.getElementsByClassName('imagenVideos');
+for(var i = 0 ; i < eventoVideo.length ; i++){
+  eventoVideo[i].addEventListener("click", reproduceVideo);
+}
+
+
 
 function cambiarLogo() {
   var logo = document.getElementById('imagenLogoCambio');
@@ -27,4 +33,8 @@ function fondoBarra() {
   }else {
     nav.style.backgroundColor = "white";
   }
+}
+
+function reproduceVideo(){
+  alert("Hola mundo :3 ");
 }
