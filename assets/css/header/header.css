@@ -25,7 +25,7 @@ body{
   font-family: 'Helvetica';
   font-size: 3em;
   margin-left:13%;
-  padding-top: 85px;
+  padding-top: 15%;
   margin-top: -5%; 
 }
 
@@ -35,7 +35,7 @@ body{
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   margin-left: 13%;
-  margin-top: 5%;
+
 }
 
 .entradaForm{
@@ -62,7 +62,7 @@ body{
   font-family:'Helvetica';
   font-size: 20px;
   color: #848484;
-  margin-left: 20px;
+  margin-left: 5%;
 }
 .singUp:hover{
   color:#DF0174;
@@ -80,21 +80,21 @@ body{
   font-family:'Helvetica';
   font-size: 15px;
   color: #848484;
-  margin-left: 20px;
+  margin-left: 5%;
 }
 .promo:hover{
   color:#DF0174;
 }
 
 .areaButton{
-  margin: 10px 70px 10px;
+  margin: 3% 10% 0%;
 }
 .areaButton button{
   font-family:'Helvetica';
   font-size: 20px;
   color: white;
-  border-radius: 8px;
-  width: 200px;
+  border-radius: 15px;
+  width: 50%;
   height: 50px;
   background-color: #ff00bf;
   border: none;
@@ -102,10 +102,10 @@ body{
 }
 .textoForm {
   padding-top: 3%;
-  width: 400px;
+  width: 80%;
   font-size: 13px;
   font-family:'Helvetica';
-  margin-left: 70px; 
+  margin-left: 13%; 
   color: #848484;
 }
 
