@@ -3,7 +3,8 @@
   height: 112px;
   position: fixed;
   z-index: 1;
-  background-color: none;
+  background-color: transparent;
+  float: left;
 
 
 }
