@@ -1,6 +1,10 @@
-document.addEventListener("scroll",cambiarLogo);
-document.addEventListener("scroll",apareceSingOn);
-document.addEventListener("scroll",fondoBarra);
+document.addEventListener("scroll",cambiarNav);
+
+function cambiarNav() {
+  cambiarLogo();
+  fondoBarra();
+  apareceSingOn();
+}
 
 function cambiarLogo() {
   var logo = document.getElementById('imagenLogoCambio');
@@ -14,7 +18,12 @@ function cambiarLogo() {
 }
 
 function apareceSingOn() {
-  var sign = document.getElementById("sign");
+  var btnSign = document.getElementById("sign");
+  if(window.scrollY < 112){
+    btnSign.style.visibility = "hidden";
+  }else {
+    btnSign.style.visibility = "visible"
+  }
 
 }
 
