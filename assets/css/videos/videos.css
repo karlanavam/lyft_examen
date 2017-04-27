@@ -98,12 +98,12 @@ body {
 .reproductorVideo
 {
   width: 95%;
-  height: 100%
+  height: 500px;
 }
 .reproductorVideo2
 {
   width: 95%;
-  height: 100%
+  height: 500px;
   float: left;
   clear: both;
 }
