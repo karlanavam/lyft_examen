@@ -12,8 +12,9 @@
 }
 .fondoFooter{
     background-color: #333447;
-    position: relative;
+
     height: 900px;
+    bottom: 0px;
 }
 
 .uppercase{
@@ -90,6 +91,18 @@
 .link:hover{
   color:#ff00bf;
   text-decoration:underline;
+}
+.enlace1:hover{
+  color:#ff00bf;
+  text-decoration:underline;
+  touch-action:manipulation;
+  cursor: pointer;
+}
+.enlace2:hover{
+  color:#ff00bf;
+  text-decoration:underline;
+  touch-action:manipulation;
+  cursor: pointer;
 }
 .imagenApp{
   width: 200px;
