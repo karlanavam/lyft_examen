@@ -14,7 +14,11 @@ body{
   position:absolute;
   float:right;
   width:40%;
+<<<<<<< HEAD
+  height:15%;
+=======
   height:100%;
+>>>>>>> da22099cdcde1b8049187b95e1c47f97eec0d9ba
   left: 60%;
   margin-top: 8%;
   background-color: white;
@@ -25,8 +29,8 @@ body{
   font-family: 'Helvetica';
   font-size: 3em;
   margin-left:13%;
+  margin-top: -5%;
   padding-top: 15%;
-  margin-top: -5%; 
 }
 
 .titulo-formulario h2{
@@ -105,27 +109,6 @@ body{
   width: 80%;
   font-size: 13px;
   font-family:'Helvetica';
-  margin-left: 13%; 
+  margin-left: 13%;
   color: #848484;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
