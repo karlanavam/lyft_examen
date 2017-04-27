@@ -95,7 +95,18 @@ body {
   float: right;
   clear: both;
 }
-
+.reproductorVideo
+{
+  width: 95%;
+  height: 500px;
+}
+.reproductorVideo2
+{
+  width: 95%;
+  height: 500px;
+  float: left;
+  clear: both;
+}
 .imagenVideos2 {
   float: left;
   clear: both;
