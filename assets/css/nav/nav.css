@@ -10,7 +10,9 @@
 }
 
 #sign{
-  filter: opacity(100%);
+  visibility: hidden;
+  color: #FF006F;
+  border-color: #FF006F;
 }
 
 nav .logoNav {
