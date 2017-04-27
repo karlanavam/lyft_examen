@@ -7,16 +7,10 @@ function cambiarLogo() {
   var claseLogo = document.getElementById('nav');
 
   logo.src = "assets/img/logo-pink.png";
-
-
-
 }
 
 function apareceSingOn() {
   var sign = document.getElementById("sign");
-
-
-
 
 }
 
