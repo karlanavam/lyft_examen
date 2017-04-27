@@ -12,7 +12,7 @@ body{
 
 .formulario-header{
   position:absolute;
-  float:left;
+  float:right;
   width:40%;
   height:100%;
   left: 60%;
@@ -20,7 +20,7 @@ body{
   background-color: white;
 }
 
-.formulario-header h1{
+.titulo-formulario h1{
  color: #352384;
   font-family: 'Helvetica';
   font-size: 3em;
@@ -29,12 +29,13 @@ body{
   margin-top: -5%; 
 }
 
-.formulario-header h2{
+.titulo-formulario h2{
   color:#6f268b;
   font-family:'Helvetica';
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   margin-left: 13%;
+  margin-top: 5%;
 }
 
 .entradaForm{
