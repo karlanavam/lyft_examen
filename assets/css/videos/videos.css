@@ -95,7 +95,12 @@ body {
   float: right;
   clear: both;
 }
+.reproductorVideo
+{
+  width: 95%;
+  height: 100%
 
+}
 .imagenVideos2 {
   float: left;
   clear: both;

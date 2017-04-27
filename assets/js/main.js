@@ -36,5 +36,12 @@ function fondoBarra() {
 }
 
 function reproduceVideo(){
-  alert("Hola mundo :3 ");
+  // alert("Hola mundo :3 ");
+  // document.getElementById("ifr1").style.display="none";
+  // // style="visibility: hidden"
+  var playVideo= document.getElementsByClassName('reproductorVideo');
+  playVideo[0].style.visibility="visible";
+  var quitaImagen= document.getElementsByClassName("imagenVideos");
+  quitaImagen[0].style.display="none";
+  console.log(i);
 }
