@@ -25,8 +25,7 @@ form{
 
 }
 #seccion-header{
- background-color: #6f268b
-;
+ background-color: #6f268b;
  padding-top: 0;
  width: 100%;
  height: 16.5%;
@@ -58,6 +57,10 @@ form{
   font-size: 3em;
   margin-left:13%;
   padding-top: 0;
+<<<<<<< HEAD
+=======
+  margin-top: -5%;
+>>>>>>> f9110ac052ecc6742929af4d4cb071eae49f1f93
 }
 #tituloFormDos{
   color:#6f268b;
