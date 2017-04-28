@@ -14,14 +14,10 @@ body{
   position:absolute;
   float:right;
   width:40%;
-<<<<<<< HEAD
-  height:15%;
-=======
-  height:100%;
->>>>>>> da22099cdcde1b8049187b95e1c47f97eec0d9ba
   left: 60%;
   margin-top: 8%;
   background-color: white;
+  padding-bottom: 50px;
 }
 
 .titulo-formulario h1{
@@ -31,6 +27,7 @@ body{
   margin-left:13%;
   margin-top: -5%;
   padding-top: 15%;
+
 }
 
 .titulo-formulario h2{
@@ -39,7 +36,6 @@ body{
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   margin-left: 13%;
-
 }
 
 .entradaForm{
@@ -112,3 +108,7 @@ body{
   margin-left: 13%;
   color: #848484;
 }
+.display{
+  display:none;
+}
+
