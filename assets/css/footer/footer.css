@@ -3,7 +3,7 @@
   position:relative;
   color: #f3f3f5;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 17px;
+  font-size: 12px;
   font-weight: lighter;
   bottom: 0px;
   width: 100%;
@@ -13,14 +13,14 @@
 }
 .fondoFooter{
     background-color: #333447;
-    height: 800px;
+    height: 500px;
     bottom: 0px;
 }
 
 .uppercase{
-  font-size: 20px;
+  font-size: 14px;
   font-family:Helvetica;
-  margin-bottom: 17px;
+  margin-bottom: 15px;
   color:white;
   touch-action:manipulation;
   cursor: pointer;
@@ -57,7 +57,7 @@
   left:85%;
 }
 .classList{
-  padding-top:  10px;
+  /*padding-top:  0px;*/
   margin-bottom: 20px;
   font-weight: lighter;
 }
@@ -69,17 +69,17 @@
   margin-bottom: 10px;
 }
 .classList2{
-  padding-top:  10px;
+  /*padding-top:  10px;*/
   margin-bottom: 20px;
   font-weight: lighter;
 }
 .classList3{
-  padding-top:  10px;
+  /*padding-top:  10px;*/
   margin-bottom: 20px;
   font-weight: lighter;
 }
 .classList4{
-  padding-top:  10px;
+  /*padding-top:  10px;*/
   margin-bottom: 10px;
   font-weight: lighter;
 }
@@ -100,12 +100,12 @@
   cursor: pointer;
 }
 .imagenApp{
-  width: 200px;
-  height: 60px;
+  width: 120px;
+  height: 35px;
 }
-.Icons{
+.icons{
  position:absolute;
- left: 25%;
+ left: 30%;
  bottom: 6%;
 
 }
@@ -113,8 +113,8 @@
  display: inline-block;
 }
 .iconsV{
- width: 40px;
- height: 40px;
+ width: 30px;
+ height: 30px;
  display: inline-block;
  position: absolute;
  margin-top: 10px;
@@ -134,12 +134,12 @@
   left: 60%;
 }
 .linea{
- margin-top: 60px;
+ margin-top: 50px;
  margin-bottom: 10px;
  border-style: solid;
  border-width: .5px;
  border-color: white;
- width:900px;
+ width:500px;
  height: 0px;
 }
 .classList5{
