@@ -16,12 +16,18 @@ body{
 
 .formulario-header{
   position:absolute;
-  float:left;
+  float:right;
   width:40%;
-  height:13%;
   left: 60%;
   margin-top: 8%;
+  background-color: white;
+  padding-bottom: 50px;
 }
+
+.entradaForm:focus{
+    outline: none;
+}
+
 form{
   padding-top: 10%;
   background-color: #FFF;
@@ -79,81 +85,106 @@ form{
  height: 400px;
 }
 
-/*.complementoFormulario{
-  position:absolute;
-  display:block;
-  width:100%;
-  background-color: red;
-  float:left;
-  z-index: 1;
-  top:8%;
-  height:120px;
-  background: linear-gradient(to bottom, #6b1d86, #6b1d86 90%, #2e1e67);
-}*/
+
 #tituloForm{
   color: #6f268b;
+}
+
+
+.titulo-formulario h1{
+ color: #352384;
   font-family: 'Helvetica';
   font-size: 3em;
   margin-left:13%;
-  padding-top: 0;
   margin-top: -5%;
+  padding-top: 15%;
+  
+
 }
-#tituloFormDos{
+
+.titulo-formulario h2{
   color:#6f268b;
   font-family:'Helvetica';
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   margin-left: 13%;
 }
-.inputFormulario{
- margin-left: 13%;
- border: none;
- text-decoration: underline;
- border-bottom: 1px solid #000;
- width: 80%;
- padding-top: 8%;
+
+.entradaForm{
+  font-family:'Helvetica';
+  margin-left: 13%;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 80%;
+  padding-top: 8%;
+
 }
-.inputPequeño{
-  width:40%;
+
+.entradaForm:focus{
+  outline:0;
 }
-.inputPequeñoDos{
-  width:25%;
+
+.entradaCity{
+  margin-left: 13%;
+  padding-top: 8%;
+  width: 50%;
+  display: inline-block;
+  border: none;
+  text-decoration: underline;
+  border-bottom: 1px solid #000;
 }
-#linkPromo{
+
+.singUp{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: #848484;
   margin-left: 5%;
-  color: 	#D3D3D3;
-  padding-bottom: 2%;
+}
+.singUp:hover{
+  color:#DF0174;
+}
+.enlace{
+  font-family:'Helvetica';
+  font-size: 13px;
+  color: #848484;
+
+}
+.enlace:hover{
+  color:#DF0174;
+}
+.promo{
+  font-family:'Helvetica';
+  font-size: 15px;
+  color: #848484;
+  margin-left: 5%;
+}
+.promo:hover{
+  color:#DF0174;
 }
 
-#linkPromo:hover{
-  color:#ff00bf;
+.areaButton{
+  margin: 3% 10% 0%;
 }
-.areaBoton{
-  position:relative;
-  width:40%;
+.areaButton button{
+  font-family:'Helvetica';
+  font-size: 20px;
+  color: white;
+  border-radius: 15px;
+  width: 50%;
+  height: 50px;
+  background-color: #ff00bf;
+  border: none;
+
+}
+.textoForm {
+  padding-top: 3%;
+  width: 80%;
+  font-size: 13px;
+  font-family:'Helvetica';
   margin-left: 13%;
-  margin-top: 10%;
-  display: inline;
-  padding-top: 5%;
-  padding-right: 5%;
+  color: #848484;
 }
 
-.acuerdosFormularios{
-  margin-top: 5%;
-  display:inline-block;
-  padding-bottom: 5%;
-}
-.acuerdosFormulariosDos{
-  margin-top: 2%;
-  display:inline-block;
-  padding-bottom: 2%;
-}
-.parrafoDos{
-  color:  	#D3D3D3;
-}
-.linkDos{
-  color:#ff00bf;
-}
-.boton{
-  margin-left: 13%;
+.display{
+  display:none;
 }

@@ -95,8 +95,34 @@ body {
   float: right;
   clear: both;
 }
+.reproductorVideo
+{
+  width: 95%;
+  height: 500px;
+}
 
-.imagenVideos2 {
+.reproductorVideo2
+{
+  width: 95%;
+  height: 500px;
   float: left;
   clear: both;
+}
+.imagenVideosIzquierda {
+  float: left;
+  clear: both;
+}
+
+.videoPlayDerecha{
+  width: 7%;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 34%;
+}
+
+.videoPlayIzquierda{
+  width: 7%;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 28%;
 }

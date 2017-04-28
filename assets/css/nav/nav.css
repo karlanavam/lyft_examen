@@ -3,13 +3,16 @@
   height: 112px;
   position: fixed;
   z-index: 1;
-  background-color: none;
-
-
+  background-color: transparent;
+  float: left;
 }
+
 #sign{
-  filter: opacity(100%);
+  visibility: hidden;
+  color: #FF006F;
+  border-color: #FF006F;
 }
+
 nav .logoNav {
   width: 64px;
   float: left;
@@ -45,3 +48,6 @@ nav .navLista {
   margin-right: 15px;
   clear: left;
 }
+ .cambiarColor li {
+   color: black;
+ }
