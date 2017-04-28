@@ -1,12 +1,7 @@
-function apareceFormOculto() {
-  var alDarClic=document.getElementsByClassName("entradaForm")[0];
-  alDarClic.addEventListener("click",apareceForm);
+var nombre=document.getElementsByClassName("entradaForm")[0];
+    nombre.addEventListener("click",apareceForm);
 
   function apareceForm(){
-    var apareceElem = document.getElementsByClassName('display');
-    for(var i = 0 ; i < apareceElem.length ; i++){
-      apareceElem[i].style.display="visible";
-    }
+    var formRestante=document.getElementById("desplegar");
+        formRestante.style.display="block"
   }
-}
-apareceFormOculto();
