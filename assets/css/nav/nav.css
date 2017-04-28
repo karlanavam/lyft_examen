@@ -48,3 +48,6 @@ nav .navLista {
   margin-right: 15px;
   clear: left;
 }
+ .cambiarColor li {
+   color: black;
+ }
