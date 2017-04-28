@@ -1,18 +1,21 @@
 document.addEventListener("scroll",cambiarNav);
+var nav = document.getElementById("nav");
 
 function cambiarNav() {
-  cambiarLogo();
+  cambiarLogoYColorDelTexto();
   fondoBarra();
   apareceSingOn();
-  colorTextoNav();
 }
 
-function cambiarLogo() {
+function cambiarLogoYColorDelTexto() {
   var logo = document.getElementById('imagenLogoCambio');
 
   if(window.scrollY < 112){
     logo.src = "assets/img/logo-white.png";
-  }else {
+    nav.className = "";
+    }
+  else {
+    nav.className = "cambiarColor";
     logo.src = "assets/img/logo-pink.png";
   }
 }
@@ -34,14 +37,5 @@ function fondoBarra() {
     nav.style.backgroundColor = "transparent";
   }else {
     nav.style.backgroundColor = "white";
-  }
-}
-
-function colorTextoNav() {
-
-  if(window.scrollY > 112){
-    document.getElementById("help").style.color = "black";
-  }else {
-    document.getElementById("help").style.color = "white";
   }
 }
