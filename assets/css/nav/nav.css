@@ -34,7 +34,7 @@ nav .navLista {
   margin-left: 10px;
   font-size: 1.125rem;
   font-family: Helvetica, sans-serif;
-  color: white;
+  color: red;
 }
 
 .navLista:hover {
@@ -48,3 +48,6 @@ nav .navLista {
   margin-right: 15px;
   clear: left;
 }
+ .cambiarColor li {
+   color: black;
+ }
