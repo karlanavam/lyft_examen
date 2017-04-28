@@ -2,8 +2,9 @@
 
   position:relative;
   color: #f3f3f5;
-  font-family:Helvetica;
-  font-size:25px ;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
   bottom: 0px;
   width: 100%;
   height: 16.625%;
@@ -12,15 +13,14 @@
 }
 .fondoFooter{
     background-color: #333447;
-
-    height: 900px;
+    height: 800px;
     bottom: 0px;
 }
 
 .uppercase{
-  font-size: 30px;
+  font-size: 20px;
   font-family:Helvetica;
-  margin-bottom: 24px;
+  margin-bottom: 17px;
   color:white;
   touch-action:manipulation;
   cursor: pointer;
@@ -33,60 +33,55 @@
 .list1{
   position: absolute;
   list-style: none;
-  left:70px;
-  top: 50px;
-  margin-right: 100px;
-
-
+  left:5%;
+  top: 50px
 }
 .list2{
   position: absolute;
   top: 50px;
   left: 20%;
-  margin-left: 100px;
   list-style: none;
-  margin-bottom: 20px;
+
 }
 .list3{
   position: absolute;
   list-style: none;
-  left:50%;
-  margin-top: 10px;
+  left:35%;
   top:50px;
-
 
 }
 .list4{
   list-style: none;
   position: absolute;
   top:50px;
-  left:80%;
+  left:85%;
 }
 .classList{
   padding-top:  10px;
-  margin-bottom: 25px;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: lighter;
 }
 .link{
   color:white;
   text-decoration: none;
-  padding: 10px;
   touch-action:manipulation;
   cursor: pointer;
   margin-bottom: 10px;
 }
 .classList2{
-  margin-top: 12px;
-  margin-bottom: 40px;
+  padding-top:  10px;
+  margin-bottom: 20px;
+  font-weight: lighter;
 }
 .classList3{
-  margin-top: 12px;
-  margin-bottom: 40px;
+  padding-top:  10px;
+  margin-bottom: 20px;
+  font-weight: lighter;
 }
 .classList4{
-  margin-top: 12px;
-  margin-bottom: 40px;
+  padding-top:  10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
 }
 .link:hover{
   color:#ff00bf;
@@ -110,7 +105,7 @@
 }
 .Icons{
  position:absolute;
- left: 35%;
+ left: 25%;
  bottom: 6%;
 
 }
@@ -118,8 +113,8 @@
  display: inline-block;
 }
 .iconsV{
- width: 50px;
- height: 50px;
+ width: 40px;
+ height: 40px;
  display: inline-block;
  position: absolute;
  margin-top: 10px;
@@ -127,7 +122,7 @@
 }
 .Uno{
   position: absolute;
-  left: 30%;
+  left: 40%;
 
 }
 .Dos{
@@ -136,22 +131,22 @@
 }
 .Tres{
   position: absolute;
-  left: 70%;
+  left: 60%;
 }
 .linea{
- margin-top: 80px;
- margin-bottom: 20px;
+ margin-top: 60px;
+ margin-bottom: 10px;
  border-style: solid;
- border-width: 1px;
+ border-width: .5px;
  border-color: white;
- width:607.33px;
+ width:900px;
  height: 0px;
 }
 .classList5{
  color:white;
  position: absolute;
  display: inline-block;
- left:20%;
+ left:36%;
 
 }
 .enlace1{
@@ -162,6 +157,6 @@
 }
 .enlace2{
  position:absolute;
- left:75%;
+ left:62%;
  color:white;
 }
