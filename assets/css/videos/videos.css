@@ -61,18 +61,7 @@ body {
   margin-left: 5%;
 
 }
-.play{
-  width: 95%;
-  float: right;
-  clear: both;
-  height: 500px;
-}
-.playIzquierda{
-  width: 95%;
-  float: left;
-  clear: both;
-  height: 500px;
-}
+
 .contenedorImagenVideo {
   width: 70%;
   height: 100%;
