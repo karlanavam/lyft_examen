@@ -2,20 +2,77 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Positioning 1</title>
+
+    <title>A ride whenever you need one - Lyft</title>
+
     <link rel="stylesheet" type="text/css" href="assets/css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/header/header.css">
     <link rel="stylesheet" type="text/css" href="assets/css/videos/videos.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer/footer.css">
+    <link rel="icon" href="assets/img/icon.png">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Scada" rel="stylesheet">
   </head>
+
   <body>
 
+    <nav id="nav">
+
+      <ul>
+        <li class="navLista">
+          <a href="#"><img src="assets/img/logo-pink.png" class="logoNav" width="64px" id="imagenLogoCambio"></a></li>
+        <li class="navLista navFloat bordeElementoNav" id="sign">Sign up</li>
+        <li class="navLista navFloat bordeElementoNav">Log in</li>
+        <li class="navLista navFloat">Help</li>
+        <li class="navLista navFloat">Explore ^</li>
+        <li class="navLista navFloat">Drive</li>
+      </ul>
+    </nav>
+
+    <header>
+      <div>
+        <video id="video-header" autoplay loop >
+            <source src="assets/video/hero-video.mp4" type="video/mp4">
+        </video>
+
+        <div class="formulario-header">
+          <div class="titulo-formulario">
+            <h1>TURN MILES<br>INTO MONEY</h1>
+            <h2>SING UP TO DRIVE WITH LYFT.</h2>
+          </div>
+              <form>
+                <input class="entradaForm" type="tel" name="phone" placeholder="Phone Number">
+                <!-- Modificaciones para el formulario Oculto -->
+
+                  <input class="entradaForm display" type="text" name="nameFirst" placeholder="First Name">
+                  <input class="entradaForm display" type="text" name="nameLast" placeholder="Last Name">
+                  <input class="entradaForm display" type="mail" name="email" placeholder="Email">
+                  <input class="entradaCity  display" type="text" name="city" placeholder="City">
+                  <a class="promo  display" href="#">Promo code?</a>
+                  <div class="textoForm  display">
+                    <input class="display" type="checkbox" name="agree">
+                    <label class="display">
+                      <span class="display">
+                        I agree to
+                        <a class="enlace display" href="#">Lyft´s Terms of Service</a>
+                      </span>
+                    </label>
 
 
-
-
-    <div id="seccion-header" >
+                </div>
+                <div class="areaButton">
+                  <button>Become a Driver</button>
+                  <a class="singUp" href="#">Sign Up to Ride</a>
+                </div>
+              </form>
+                <div class="textoForm">
+                  <p>Already applied?<a class="enlace" href="#">Check the status of your application here</a></p>
+                  <p>Earn money for inviting friends to drive <a class="enlace" href="#">Learn more.</a></p>
+              </div>
+            </div>
+      </header>
+      
+      <div id="seccion-header" >
       <div class="contenedor-Parrafos">
         <h3>A RIDE IN MINUTES</h3>
         <p>Request a ride and you'll be on you way in minutes. Request. Ride. Repeat.</p>
@@ -29,19 +86,12 @@
       </div>
     </div>
 
-    <nav>
-      <ul>
-        <li class="navLista"><img src="assets/img/logo-pink.png" class="logoNav" width="64px"></li>
-        <li class="navLista">Drive</li>
-        <li class="navLista">Explore^</li>
-        <li class="navLista">Help</li>
-        <li class="navLista">Log in</li>
-        <li class="navLista">Sign up</li>
-      </ul>
-    </nav>
+
+
+
 
     <section id="video">
-      <section>
+      <section class="contenedorTextoImagenVideos">
         <div class="contenedorTextoVideos">
           <h3 class="h3Videos">WATCH</h3>
           <h2 class="h2Videos">AMPLIFY YOUR RIDE</h2>
@@ -50,18 +100,20 @@
              for passengers and drivers to find each other.
           </p>
         </div>
-        <div class="contenedorImagenesVideos">
+        <div class="contenedorImagenVideo">
+          <img class="videoPlayDerecha" src="assets/img/play.png">
           <img class="imagenVideos" src="assets/img/imgVideos1.png">
-          <!-- imgagen -->
+          <!-- imagen -->
         </div>
       </section>
 
       <section>
-        <div class="contenedorImagenesVideos">
-          <img class="imagenVideos" src="assets/img/imgVideos2.png">
+        <div class="contenedorImagenVideo contenedorImagenVideo2">
+          <img class="videoPlayIzquierda" src="assets/img/play.png">
+          <img class="imagenVideos imagenVideosIzquierda" src="assets/img/imgVideos2.png">
           <!-- imgagen -->
         </div>
-        <div class="contenedorTextoVideos">
+        <div class="contenedorTextoVideos contenedorTextoVideos2">
           <h3 class="h3Videos">WATCH</h3>
           <h2 class="h2Videos">JUNE</h2>
           <p class="pVideos">In an animated short film by Academy Award-winner John Kahrs,
@@ -71,7 +123,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="romperFloat">
         <div class="contenedorTextoVideos">
           <h3 class="h3Videos">WATCH</h3>
           <h2 class="h2Videos">A GOOD THING GOING</h2>
@@ -79,15 +131,65 @@
              Lyft continues to prioritize happy drivers, short ETAs, and safety.
           </p>
         </div>
-        <div class="contenedorImagenesVideos">
+        <div class="contenedorImagenVideo">
+          <img class="videoPlayDerecha" src="assets/img/play.png">
           <img class="imagenVideos" src="assets/img/imgVideos3.png">
           <!-- imgagen -->
         </div>
       </section>
-
     </section>
->>>>>>> upstream/master
 
-    <script src="assets/js/main.js"></script>
+    <footer id="footerEnding">
+      <div class="fondoFooter">
+        <ul class="list1">
+            <li class="uppercase"><a > <strong> DRIVE </strong></a></li>
+            <li class="uppercase"><a> <strong> RIDE </strong></a></li>
+            <li class="uppercase"><a> <strong> LOG IN </strong></a></li>
+            <li class="classList"><a class="link"> Help</a></li>
+            <li class="classList"><a class="link"> Cities</a></li>
+            <li class="classList"><a class="link"> Airports</a></li>
+            <li class="classList"><a class="link"> Fare Estimate</a></li>
+            <li class="classList"><a class="link"> Free Ride Credits</a></li>
+            <li class="classList"><a class="link"> Driver Promo</a></li>
+            <li class="classList"><a class="link"> Gift Cards</a></li>
+        </ul>
+        <ul class="list2">
+          <li class="uppercase"><a> <strong> PARTNER </strong></a></li>
+          <li class="classList2"><a class="link"> Partnerships</a></li>
+          <li class="classList2"><a class="link"> Business</a></li>
+          <li class="classList2"><a class="link"> Ambassadors</a></li>
+          <li class="classList2"><a class="link"> Developers</a></li>
+          <li class="classList2"><a class="link"> Events</a></li>
+        </ul>
+        <ul class="list3">
+          <li class="uppercase"><a> <strong> LEARN </strong></a></li>
+          <li class="classList3"><a class="link"> Safety</a></li>
+          <li class="classList3"><a class="link"> Blog</a></li>
+          <li class="classList3"><a class="link"> Press</a></li>
+          <li class="classList3"><a class="link"> Careers</a></li>
+          <li class="classList3"><a class="link"> Driver Requirements</a></li>
+       </ul>
+       <ul class="list4">
+         <li class="classList4"><a> <img class="imagenApp"src="assets/img/apple-store.svg" /></a></li>
+         <li class="classList4"><a> <img class="imagenApp" src="assets/img/google-play.png"/></a></li>
+         <li class="classList4"><a> <img class="imagenApp" src="assets/img/amazon.png"/></a></li>
+         <li class="classList4"><a> <img class="imagenApp" src="assets/img/microsoft.png"/></a></li>
+       </ul>
+       <div class="icons">
+          <div ><img class="iconsV Uno" src="assets/img/twitter.png"></div>
+          <div ><img class="iconsV Dos"src="assets/img/facebook.png"></div>
+          <div ><img class="iconsV Tres"src="assets/img/instagram.png"></div>
+          <div class="linea"></div>
+
+            <span class="classList5">© 2017 Lyft, Inc.</span>
+            <span><a class="enlace1"> Terms </a></span>
+            <span><a class="enlace2"> Privacy</a></span>
+      </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/nav.js/nav.js"></script>
+    <script src="assets/js/videos.js/videos.js"></script>
+    <script src="assets/js/formularioOculto.js/formOculto.js"></script>
   </body>
 </html>

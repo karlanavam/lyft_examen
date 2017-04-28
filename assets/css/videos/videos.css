@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#video{
+  width: 100%;
+  height: 33.33%;
+  clear: both;
+}
+
+.contenedorTextoImagenVideos{
+  width: 100%;
+  height: 33%;
+  position: relative;
+  float: left;
+}
+
+.contenedorTextoVideos {
+  width: 30%;
+  height: 100%;
+  padding: 0;
+  font-family: sans-serif;
+  display: inline-block;
+  padding-top: 10%;
+}
+
+.h3Videos {
+  font-size: 1em;
+  font-family: Helvetica;
+  text-align: left;
+  width: 80%;
+  font-family: sans-serif;
+  width: 85%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+.h2Videos {
+  font-size: 2em;
+  font-family: Helvetica;
+  text-align: left;
+  width: 80%;
+  font-family: sans-serif;
+  margin-bottom: 10%;
+  margin-left: 5%;
+}
+
+.pVideos {
+  font-size: 1.1em;
+  font-family: Helvetica;
+  text-align: justify;
+  height: 40%;
+  width: 80%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+
+}
+
+.contenedorImagenVideo {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  display: inline-block;
+  float: right;
+}
+
+.contenedorImagenVideo2 {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.contenedorTextoVideos2 {
+  width: 30%;
+  height: 100%;
+  padding: 0;
+  font-family: sans-serif;
+  display: inline-block;
+  padding-top: 10%;
+}
+
+.romperFloat {
+  clear: both;
+}
+
+.imagenVideos {
+  width: 95%;
+  float: right;
+  clear: both;
+}
+.reproductorVideo
+{
+  width: 95%;
+  height: 500px;
+}
+
+.reproductorVideo2
+{
+  width: 95%;
+  height: 500px;
+  float: left;
+  clear: both;
+}
+.imagenVideosIzquierda {
+  float: left;
+  clear: both;
+}
+
+.videoPlayDerecha{
+  width: 7%;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 34%;
+}
+
+.videoPlayIzquierda{
+  width: 7%;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 28%;
+}
