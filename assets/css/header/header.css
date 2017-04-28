@@ -20,6 +20,11 @@ body{
   padding-bottom: 50px;
 }
 
+.entradaForm:focus{
+    outline: none;
+}
+
+
 .titulo-formulario h1{
  color: #352384;
   font-family: 'Helvetica';
@@ -111,4 +116,3 @@ body{
 .display{
   display:none;
 }
-
