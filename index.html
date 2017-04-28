@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/footer/footer.css">
     <link rel="icon" href="assets/img/icon.png">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Scada" rel="stylesheet">    
   </head>
 
   <body>
@@ -35,6 +35,7 @@
         <video id="video-header" autoplay loop >
             <source src="assets/video/hero-video.mp4" type="video/mp4">
         </video>
+        
         <div class="formulario-header">
           <div class="titulo-formulario">
             <h1>TURN MILES<br>INTO MONEY</h1>
@@ -42,33 +43,34 @@
           </div>
               <form>
                 <input class="entradaForm" type="tel" name="phone" placeholder="Phone Number">
-                <input class="entradaForm" type="text" name="nameFirst" placeholder="First Name">
-                <input class="entradaForm" type="text" name="nameLast" placeholder="Last Name">
-                <input class="entradaForm " type="mail" name="email" placeholder="Email">
-                <input class="entradaCity" type="text" name="city" placeholder="City">
-                 <a class="promo" href="#">Promo code?</a>
+                <!-- Modificaciones para el formulario Oculto -->
 
-                <div class="textoForm">
-                  <input type="checkbox" name="agree">
-                  <label>
-                    <span>
-                      I agree to
-                      <a class="enlace" href="#">Lyft´s Terms of Service</a>
-                    </span>
-                  </label>
+                  <input class="entradaForm display" type="text" name="nameFirst" placeholder="First Name">
+                  <input class="entradaForm display" type="text" name="nameLast" placeholder="Last Name">
+                  <input class="entradaForm display" type="mail" name="email" placeholder="Email">
+                  <input class="entradaCity  display" type="text" name="city" placeholder="City">
+                  <a class="promo  display" href="#">Promo code?</a>
+                  <div class="textoForm  display">
+                    <input class="display" type="checkbox" name="agree">
+                    <label class="display">
+                      <span class="display">
+                        I agree to
+                        <a class="enlace display" href="#">Lyft´s Terms of Service</a>
+                      </span>
+                    </label>
+
+
                 </div>
                 <div class="areaButton">
                   <button>Become a Driver</button>
                   <a class="singUp" href="#">Sign Up to Ride</a>
-
                 </div>
-          </form>
-          <div class="textoForm">
-            <p>Already applied?<a class="enlace" href="#">Check the status of your application here</a></p>
-            <p>Earn money for inviting friends to drive <a class="enlace" href="#">Learn more.</a></p>
-          </div>
-
-        </div>
+              </form>
+                <div class="textoForm">
+                  <p>Already applied?<a class="enlace" href="#">Check the status of your application here</a></p>
+                  <p>Earn money for inviting friends to drive <a class="enlace" href="#">Learn more.</a></p>
+              </div>
+            </div>
       </header>
 
 
@@ -85,6 +87,7 @@
           </p>
         </div>
         <div class="contenedorImagenVideo">
+          <img class="videoPlayDerecha" src="assets/img/play.png">
           <img class="imagenVideos" src="assets/img/imgVideos1.png">
           <!-- imagen -->
         </div>
@@ -92,7 +95,8 @@
 
       <section>
         <div class="contenedorImagenVideo contenedorImagenVideo2">
-          <img class="imagenVideos imagenVideos2" src="assets/img/imgVideos2.png">
+          <img class="videoPlayIzquierda" src="assets/img/play.png">
+          <img class="imagenVideos imagenVideosIzquierda" src="assets/img/imgVideos2.png">
           <!-- imgagen -->
         </div>
         <div class="contenedorTextoVideos contenedorTextoVideos2">
@@ -114,6 +118,7 @@
           </p>
         </div>
         <div class="contenedorImagenVideo">
+          <img class="videoPlayDerecha" src="assets/img/play.png">
           <img class="imagenVideos" src="assets/img/imgVideos3.png">
           <!-- imgagen -->
         </div>
@@ -171,5 +176,6 @@
     </footer>
     <script src="assets/js/nav.js/nav.js"></script>
     <script src="assets/js/videos.js/videos.js"></script>
+    <script src="assets/js/formularioOculto.js/formOculto.js"></script>
   </body>
 </html>
