@@ -63,9 +63,12 @@ body {
 }
 .play{
   width: 95%;
+  height: 350px;
   float: right;
   clear: both;
-  height: 500px;
+  padding: 0;
+  margin: 0;
+
 }
 .playIzquierda{
   width: 95%;
@@ -105,6 +108,8 @@ body {
   width: 95%;
   float: right;
   clear: both;
+  margin: 0;
+  padding: 0;
 }
 .reproductorVideo
 {

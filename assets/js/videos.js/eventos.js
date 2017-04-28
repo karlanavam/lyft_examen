@@ -23,8 +23,7 @@ function reproduceVideo1(){
 
 }
 function reproduceVideo2(){
-  // eventoClickIzquierda[0].style.display="none";
-   izquierda[0].style.display="none";
+  eventoClickIzquierda[0].style.display="none";
   quitaPlay[1].style.display="none";
   video[1].style.visibility="visible";
   video[1].src+="&autoplay=1";
